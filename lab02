@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 02: HTML Basics</title>
+</head>
+<body>
 
+<header>
+    <h1>Learning HTML Basics</h1>
+    <h2>Lab: 02</h2>
+    <p><em>Published on February 15, 2026 by Antonio Payton</em></p>
+</header>
+
+<main>
+    <article>
+        <p>
+            HTML first seemed so confusing, though, it has became very interesting.
+            Understanding the basics of code is helping me to understand not only 
+            how sites work, but it is also inspiring me to one day want to build
+            a site of my own from stratch. Overall, I am loving HTML.
+        </p>
+
+        <h3>What I Like About HTML</h3>
+
+        <ol>
+            <li>I like learning how to code</li>
+            <li>I like the feeling of knowing that I created something of my own</li>
+            <li>I like working with structure</li>
+        </ol>
+
+        <p>
+            In the latest module that I am on in CSIT 121, I utilized these sites the
+            most:
+        </p>
+        <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content" target="_blank">HTML Overview</a></li>
+    <li><a href="http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html" target="_blank">HTML Tree</a></li>
+</ul>
+
+    </article>
+</main>
+
+<footer>
+    <p>&copy; 2026 Antonio Payton. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
