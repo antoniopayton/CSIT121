@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gospel Song Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gospel Song Contact Form</h1>
+        <nav>
+            <a href="tierlist.html">Tier List</a>
+            <a href="contact.html">Contact Form</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Let's Hear From You!</h2>
+
+        <form action="#" method="post">
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="higher-tier">Which song deserved a higher tier?</label><br>
+                <input type="text" id="higher-tier" name="higher-tier">
+            </div>
+
+            <div>
+             <label for="tier">Which tier had the best songs?</label>
+            <select id="tier" name="tier">
+             <option value="S">S</option>
+             <option value="A">A</option>
+             <option value="B">B</option>
+             <option value="C">C</option>
+             <option value="D">D</option>
+            </select>
+            </div>
+
+            <div>
+                <label>Which out of the five artists do you listen to the most?</label><br>
+                
+                 <input type="checkbox" id="maverick-city" name="artist" value="Maverick City">
+                 <label for="maverick-city">Maverick City</label>
+                 
+                 <input type="checkbox" id="todd-dulaney" name="artist" value="Todd Dulaney">
+                 <label for="todd-dulaney">Todd Dulaney</label>
+                 
+                 <input type="checkbox" id="vincent-bohanan" name="artist" value="Vincent Bohanan">
+                <label for="vincent-bohanan">Vincent Bohanan</label>
+
+                 <input type="checkbox" id="tye-tribbett" name="artist" value="Tye Tribbett">
+                 <label for="tye-tribbett">Tye Tribbett</label>
+
+                 <input type="checkbox" id="jonathan-mcreynolds" name="artist" value="Jonathan McReynolds">
+                 <label for="jonathan-mcreynolds">Jonathan McReynolds</label>
+            </div>
+
+            <div>
+                <label for="rat">Tier List Rating:</label>
+                <input type="range" id="rat" name="rat" min="1" max="5"><br><br>
+            </div>
+
+            <div>
+                <label for="comments">What improvements can be made to the tierlist?:</label><br>
+                <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
