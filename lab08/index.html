@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 08 - Interactive Menu</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>Lab 08: Interactive Menu</h1>
+
+    <nav class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="jpg.html">JPG</a>
+      <a href="png.html">PNG</a> 
+      <a href="gif.html">GIF</a> 
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+</a>
+    </nav>
+    <hr>
+
+    <h2>About This Website</h2>
+    <p>This website contains common web image formats: JPG, PNG, and GIF.</p>
+
+    <p>The links above showcase an example of each image file format.</p>
+
+    <h2>Source</h2>
+<p>
+  Background image source:
+  <a href="https://negativespace.co/abstract-background/" target="_blank">
+    Negative Space Abstract Background
+  </a>
+</p>
+
+<p class="footer">
+  © 2026 Antonio Payton
+</p>
+
+  </div>
+
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+  </script>
+</body>
+</html>

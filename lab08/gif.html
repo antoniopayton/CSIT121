@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Title Here</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>GIF Example</h1>
+
+  <nav class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="jpg.html">JPG</a>
+  <a href="png.html">PNG</a>
+  <a href="gif.html" class="active">GIF</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</nav>
+
+    <img src="images/tiger.gif" class="small-img" alt="Example GIF image">
+
+    <h2>Description</h2>
+    <p>This is Tiger Woods laughing while at a tournament.</p>
+
+    <h2>Image File Type</h2>
+    <p>This is a GIF (.gif). It is good for supporting animated and moving images/graphics.</p>
+
+    <h2>Why I Chose This Image</h2>
+    <p>I chose this image because it reflects good spirits and positive energ. I always love to laugh.</p>
+
+    <h2>Source</h2>
+<p>
+  GIF source:
+  <a href="https://giphy.com/gifs/tglgolf-tiger-woods-tgl-tomorrow-golf-league-rnjDZog7PrSVhulkUo" target="_blank" rel="noopener noreferrer">
+    Giphy Tiger Woods GIF
+  </a>
+</p>
+
+    <p class="footer">
+  © 2026 Antonio Payton
+</p>
+
+  </div>
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
