@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Title Here</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>PNG Example</h1>
+
+  <nav class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="jpg.html">JPG</a>
+  <a href="png.html" class="active">PNG</a>
+  <a href="gif.html">GIF</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</nav>
+
+    <img src="images/graphic.png" class="small-img" alt="Example PNG image">
+
+    <h2>Description</h2>
+    <p>This image uses PNG format, which supports transparency and high-quality graphics.</p>
+
+    <h2>Image File Type</h2>
+    <p>This image is a PNG (.png). It is among the five most common graphic formats. PNG images are known to be good for compressing without losing quaility since it is uses looseless compression.</p>
+
+    <h2>Why I Chose This Image</h2>
+    <p>I wanted to use this image as it was originally saved in my phone as a meme that I always use with my friends. It was one of the only PNG photos I had saved to my phone.</p>
+
+    <h2>Source</h2>
+<p>
+PNG Source:
+<a href="https://x.com/PolymarketBlitz/status/1972734495871975744" target="_blank" rel="noopener noreferrer">
+https://x.com/PolymarketBlitz/status/1972734495871975744
+</a>
+</p>
+
+    <p class="footer">
+  © 2026 Antonio Payton
+</p>
+
+  </div>
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Audio API Examples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav>
+  <a href="../../index.html">Home</a> |
+  <a href="../../labs.html">Labs</a> |
+  <a href="../../skills.html">Skills</a> |
+  <a href="../../lessons.html">Lessons</a>
+</nav>
+<body>
+    <header>
+        <h1>Web Audio API</h1>
+    </header>
+
+    <nav>
+    <a href="index.html">What Is It?</a>
+    <a href="importance.html">Why Is It Important?</a>
+    <a href="examples.html">How Is It Used?</a>
+    <a href="sources.html">Sources</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>How is it used?</h2>
+
+            <p>Web Audio API is most ofteny present when sounds or music is invovled for users to interact with in a web. Doing things like
+                turning up and down the volume or clicking buttons that activate sound responses are all controlled by Web Audio API. According 
+                to MDN, developers are able to montior how this entire process takes place using this technology. This is a major upgrade to
+                how sound is handled in this day in age.</p>
+
+            <p>Another example of this technology is when you play a game. Often time, developers like to implement sound efects during
+                a game to enhance user experience. This can be found in games that require you to jump, slide, run, or anything that involves
+                motion. When these things happen, Web Audio API is at hand. This helps games feel more realistic.
+            </p>
+
+            <p>Below is an example of some of the code you may see or write when using this technology. It displays how the audio starts.
+                Once users click select a button, a AudioContext is created. The AudioContext has to be created for the sound to produce.
+                This shows how users are given the control to determine when audio will play because the web is waiting on their click of 
+                the button.
+                </p>
+
+                 <p>"const button = document.querySelector("button");
+                 button.addEventListener("click", () => {
+                const audioCtx = new AudioContext();""
+                </p>
+        </section>
+    </main>
+</body>
+</html>
